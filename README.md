@@ -1,8 +1,8 @@
-# [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/) AltaCV - CV in LaTeX a Singola Pagina [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/)
+# AltaCV - CV in LaTeX a Singola Pagina
 
-v1.3 (20 Gennaio 2024) di Emanuele Seminara
+v1.0 (21 Febbraio 2025) di Simone Tringali
 
-[Per la versione inglese Clicca Qui](https://github.com/EmanueleSeminara/LaTeX_resume/tree/ENG)
+[Per la versione inglese Clicca Qui](https://github.com/SimoneTringali96/LaTeX_resume/tree/ENG)
 
 ## Introduzione
 
@@ -10,17 +10,17 @@ Questo repository è pensato per te, amante di LaTeX, per darti un'idea interess
 Puoi utilizzare questo modello per creare in pochi minuti il tuo curriculum personale.
 
 Di seguito troverai una selezione di passi da seguire per personalizzare il tuo curriculum, divertiti.
-Per qualsiasi domanda puoi scrivermi a [seminara.emanuele96@gmail.com](mailto:seminara.emanuele96@gmail.com).
+Per qualsiasi domanda puoi scrivermi a [simone.tringali.96@gmail.com](mailto:simone.tringali.96@gmail.com).
 
 Puoi trovarmi anche su:
 
-[![LinkedIn](https://github.com/EmanueleSeminara/images/blob/main/icon_square_linkedin_50.png?raw=true)](https://www.linkedin.com/in/emanuele-seminara/)
-[![Instagram](https://github.com/EmanueleSeminara/images/blob/main/icon_square_instagram_50.png?raw=true)](https://www.instagram.com/emanuele_seminara/)
-[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/icon_square_emanueleseminara_50.png?raw=true)](https://emanueleseminara.it/)
+<!-- [![LinkedIn](https://github.com/EmanueleSeminara/images/blob/main/icon_square_linkedin_50.png?raw=true)](https://www.linkedin.com/in/emanuele-seminara/) -->
+[![Instagram](https://github.com/EmanueleSeminara/images/blob/main/icon_square_instagram_50.png?raw=true)](https://www.instagram.com/simone_tringali/)
+<!-- [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/icon_square_emanueleseminara_50.png?raw=true)](https://emanueleseminara.it/) -->
 
 ## Aspetto del Curriculum
 
-![Screenshot_CV](./Emanuele_Seminara_CV_ITA.jpg)
+![Screenshot_CV](./Simone_Tringali_CV_ITA.jpg)
 
 ## Editor
 
@@ -56,9 +56,4 @@ Dopo aver caricato i file, dovrai solo modificare il contenuto dei file per scri
 - Tuttavia, se stai utilizzando `academicons`, _devi_ usare XeLaTeX o LuaLaTeX. Se il documento viene compilato ma le icone non appaiono nel PDF finale, prova a compilare con LuaLaTeX invece.
 - Negli esempi qui mostrati viene utilizzato il carattere [Lato](http://www.latofonts.com/lato-free-fonts/).
 
-## Donazioni
 
-Il codice è qui per essere letto, modificato, adattato, riutilizzato, gratuitamente, fai quello che vuoi!
-Tuttavia, se desideri offrirmi un caffè o una birra, allora cin cin! =D
-
-[![button Buy me a coffee](https://github.com/EmanueleSeminara/images/blob/main/bmc-button_small2.png?raw=true)](https://www.buymeacoffee.com/emanueleseminara)
