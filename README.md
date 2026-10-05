@@ -1,6 +1,6 @@
 # AltaCV - CV in LaTeX a Singola Pagina
 
-v1.0 (21 Febbraio 2025) di Simone Tringali
+v1.1 (06 ottobre 2026) di Simone Tringali
 
 [Per la versione inglese Clicca Qui](https://github.com/SimoneTringali96/LaTeX_resume/tree/ENG)
 
