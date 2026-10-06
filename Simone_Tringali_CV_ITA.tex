@@ -13,7 +13,7 @@
 \usepackage[utf8]{inputenc}
 
 \usepackage[sfdefault,semibold,lf]{FiraSans}
-\usepackage[a4paper,hmargin=1.8cm,top=1.5cm,bottom=2cm]{geometry}
+\usepackage[a4paper,hmargin=1.8cm,top=1.3cm,bottom=1.7cm]{geometry}
 
 \usepackage{xcolor}
 \definecolor{accent}{HTML}{141E61}
@@ -42,7 +42,7 @@
 }
 
 \usepackage{titlesec}
-\titlespacing{\section}{0pt}{*2}{*1}
+\titlespacing{\section}{0pt}{*1.5}{*0.8}
 \titlespacing{\subsection}{0pt}{*1.5}{*0}
 \titlespacing{\subsubsection}{0pt}{*0}{*0}
 \titleformat{\section}{\large\bfseries\uppercase}{}{}{\midrule}
@@ -75,6 +75,8 @@
 %====== PACKAGES ======
 \usepackage{fontawesome5}
 \usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{tikz}
 \usepackage[bookmarks=false,hidelinks]{hyperref}
 \usepackage[protrusion=true,expansion=true]{microtype}
 
@@ -87,7 +89,18 @@
 
 %====== BANNER ======
 
-\begin{center}
+% Foto: sovrapposta a sinistra, il testo resta centrato sulla pagina.
+% Per la versione senza foto commenta la riga \makebox con il blocco della foto.
+\noindent
+\makebox[0pt][l]{%
+\begin{minipage}[c]{3cm}
+  \begin{tikzpicture}
+    \clip (0,0) circle (1.35cm);
+    \node at (0.2,-0.05) {\includegraphics[width=3.4cm]{sagoma.jpeg}};
+  \end{tikzpicture}
+\end{minipage}}%
+\begin{minipage}[c]{\linewidth}
+  \centering
   {
     \fontsize{36}{12}
     \fontseries{heavy}\selectfont
@@ -97,15 +110,12 @@
 
   {\large Dottore Magistrale in Scienze della Nutrizione Umana} \\ \medskip
 
-  % Foto (opzionale): aggiungi \usepackage{graphicx} nel preambolo e decommenta la riga seguente
-  % \includegraphics[width=3cm]{sagoma.jpeg} \\ \medskip
-
   \href{tel:+393281639295}{{\color{gray}{\faPhone}} +39 328 163 9295} \quad
-  \href{mailto:simone.tringali.96@gmail.com}{{\color{gray}{\faEnvelope}} simone.tringali.96@gmail.com} \quad
+  \href{mailto:simone.tringali.96@gmail.com}{{\color{gray}{\faEnvelope}} simone.tringali.96@gmail.com} \\ \smallskip
   {\color{gray}{\faHome}} Palermo \quad
   {\color{gray}{\faCalendar*}} 02/02/1996 \quad
   {\color{gray}{\faCar}} Patente B
-\end{center}
+\end{minipage}
 
 %====== BANNER END ======
 
@@ -114,7 +124,7 @@
 %==========
 \noindent Laureato con lode in \textbf{Scienze della Nutrizione Umana} (LM-61), con formazione triennale in \textbf{Scienze e Tecnologie Agroalimentari}. Esperienza di tirocinio in \textbf{nutrizione clinica} (chirurgia bariatrica e oncologia) nella valutazione dello stato nutrizionale e nell'elaborazione di \textbf{piani alimentari personalizzati}. Competenze in \textbf{qualità e sicurezza degli alimenti} e approfondimento sulla \textbf{nutrizione nei disturbi intestinali}, sviluppato nella tesi sulla sindrome del colon irritabile. In preparazione all'\textbf{Esame di Stato per Biologo} (sessione di novembre 2026).
 
-\section{Tirocini}
+\section{Esperienze}
 %==========
 \subsection{Casa di Cura Macchiarella \rside{Palermo}}
 \subsubsection{Tirocinante Nutrizionista \rside{Feb 2026 -- Apr 2026}}
@@ -154,13 +164,11 @@
   \item \textbf{Gestione degli effetti collaterali da farmaci incretino-mimetici} \aux{SIFA, FAD} \rside{2026}
 \end{itemize}
 
-\section{Competenze}
+\section{Lingue e interessi}
 %===============
 \begin{itemize}
   \item \textbf{Lingue:} Italiano madrelingua; Inglese B1 (intermedio).
-  \item \textbf{Informatiche:} Microsoft Office (Word, Excel, PowerPoint); Windows, macOS.
-  \item \textbf{Trasversali:} lavoro in équipe, problem solving, adattabilità, rapidità di apprendimento, creatività.
-  \item \textbf{Interessi:} il legame tra \textbf{cibo}, \textbf{salute} e \textbf{benessere}, che coltivo anche in \textbf{cucina}, sperimentando con gli \textbf{impasti}; sport di squadra (\textbf{calcio}, \textbf{padel}); innovazioni digitali.
+  \item \textbf{Interessi:} mi appassiona il legame tra \textbf{cibo}, \textbf{salute} e \textbf{benessere}, che porto anche fuori dallo studio: in \textbf{cucina} sperimento ricette e \textbf{impasti}, mettendo in pratica ciò che ho imparato su ingredienti e tecnologie alimentari. Pratico sport di squadra come \textbf{calcio} e \textbf{padel} e seguo con curiosità le \textbf{innovazioni digitali}.
 \end{itemize}
 % \section{Certifications}
 % %=======================
