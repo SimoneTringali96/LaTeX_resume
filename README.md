@@ -1,4 +1,4 @@
-# Rover Resume - CV in LaTeX
+# Rover Resume - CV in LaTeX a Singola Pagina
 
 v2.0 (06 ottobre 2026) di Simone Tringali
 
@@ -9,9 +9,7 @@ v2.0 (06 ottobre 2026) di Simone Tringali
 Questo repository è pensato per te, amante di LaTeX, per darti un'idea interessante per un curriculum vitae.
 Puoi utilizzare questo modello per creare in pochi minuti il tuo curriculum personale.
 
-Il template è basato sulla versione di [Emanuele Seminara](https://github.com/EmanueleSeminara/LaTeX_resume),
-a sua volta fork di [Rover Resume](https://github.com/subidit/rover-resume), successivamente personalizzato nella struttura e nello stile.
-
+Di seguito troverai una selezione di passi da seguire per personalizzare il tuo curriculum, divertiti.
 Per qualsiasi domanda puoi scrivermi a [simone.tringali.96@gmail.com](mailto:simone.tringali.96@gmail.com).
 
 Puoi trovarmi anche su:
@@ -20,11 +18,14 @@ Puoi trovarmi anche su:
 
 ## Aspetto del Curriculum
 
-Puoi [scaricare il PDF compilato](./Simone_Tringali_CV_ITA.pdf) oppure dare un'occhiata all'anteprima:
+Puoi [scaricare il PDF](./Simone_Tringali_CV_ITA.pdf) oppure dare un'occhiata all'anteprima:
 
 ![Screenshot_CV](./Simone_Tringali_CV_ITA.jpg)
 
-## Come iniziare
+## Editor
+
+Nel caso tu non conosca LaTeX, non preoccuparti, puoi utilizzare [Overleaf](https://overleaf.com), un editor online gratuito e fantastico,
+basta creare un account, avviare un nuovo progetto e caricare i file di questo repository.
 
 Per avere i file sul tuo PC, clona semplicemente questo repository:
 
@@ -40,21 +41,14 @@ Per avere i file sul tuo PC, clona semplicemente questo repository:
    git clone https://github.com/SimoneTringali96/LaTeX_resume.git
    ```
 
-Dopo aver caricato i file, ti basta modificarne il contenuto per scrivere ciò che desideri nel tuo curriculum.
-È davvero intuitivo: i commenti all'inizio del file `.tex` spiegano i comandi personalizzati usati dal template.
+Dopo aver caricato i file, dovrai solo modificare il contenuto dei file per scrivere ciò che desideri nel tuo curriculum.
+È davvero intuitivo, nel caso tu abbia bisogno di ulteriori informazioni su cosa modificare, puoi consultare la sezione seguente.
 
-## Compilazione
+## Come personalizzarlo
 
-Il template è pensato per **pdfLaTeX** e utilizza `fontenc` con codifica T1: è necessaria affinché le lettere accentate
-vengano estratte correttamente dal PDF, aspetto rilevante per i sistemi ATS che leggono automaticamente i curriculum.
-
-Per compilare in locale serve una distribuzione LaTeX presente nel PATH di sistema. Su macOS puoi installare
-[MacTeX](https://www.tug.org/mactex/mactex-download.html), scaricando `MacTeX.pkg` dalla pagina di download.
-Per altri sistemi operativi, o per alternative più leggere, fai riferimento alla
-[documentazione di TeX Live](https://www.tug.org/texlive/).
-
-Se usi Visual Studio Code, l'estensione [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
-gestisce la compilazione automaticamente una volta installata la distribuzione.
-
-In alternativa, se non vuoi installare nulla, puoi usare [Overleaf](https://overleaf.com): un editor online gratuito,
-basta creare un account, avviare un nuovo progetto e caricare i file di questo repository.
+- Tutto il curriculum si trova nel file `Simone_Tringali_CV_ITA.tex`.
+- Nome, titolo e contatti si modificano nella parte del file indicata come `BANNER`.
+- Per cambiare la foto sostituisci `sagoma.jpeg` con la tua, possibilmente quadrata. Se preferisci un curriculum senza foto, commenta il blocco indicato nel file.
+- Per cambiare il colore principale modifica la riga `\definecolor{accent}` all'inizio del file.
+- Compila con pdfLaTeX, che su Overleaf è già l'impostazione predefinita.
+- Il template è basato sulla versione di [Emanuele Seminara](https://github.com/EmanueleSeminara/LaTeX_resume), a sua volta derivata da [Rover Resume](https://github.com/subidit/rover-resume).
