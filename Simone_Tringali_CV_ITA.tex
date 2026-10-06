@@ -13,7 +13,7 @@
 \usepackage[utf8]{inputenc}
 
 \usepackage[sfdefault,semibold,lf]{FiraSans}
-\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[a4paper,hmargin=1.8cm,top=1.5cm,bottom=2cm]{geometry}
 
 \usepackage{xcolor}
 \definecolor{accent}{HTML}{141E61}
@@ -42,8 +42,8 @@
 }
 
 \usepackage{titlesec}
-\titlespacing{\section}{0pt}{*4}{*1}
-\titlespacing{\subsection}{0pt}{*3}{*0}
+\titlespacing{\section}{0pt}{*2.5}{*1}
+\titlespacing{\subsection}{0pt}{*1.5}{*0}
 \titlespacing{\subsubsection}{0pt}{*0}{*0}
 \titleformat{\section}{\large\bfseries\uppercase}{}{}{\midrule}
 \titleformat*{\subsection}{\large\bfseries\scshape}
@@ -66,10 +66,7 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 
-% Replace 'Star Rover' with your name in next line
-\fancyfoot[C]{\small\color{gray} Autorizzo l'uso dei miei dati personali in conformità al GDPR 679/16 - "Regolamento europeo sulla protezione dei dati personali". \\
-\vspace{0.25cm} % Puoi regolare lo spazio
-Simone Tringali -- Page \thepage\ of \pageref*{LastPage}}
+\fancyfoot[C]{\footnotesize\color{gray} Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/2003 e del Regolamento UE 2016/679 (GDPR).}
 
 % \pagestyle{empty} 
 % uncomment previous line to hide page numbering
@@ -98,14 +95,14 @@ Simone Tringali -- Page \thepage\ of \pageref*{LastPage}}
     Simone Tringali % YOUR NAME HERE
   } \\ \medskip
 
-  {\large Dottore Magistrale in Scienze della Nutrizione Umana $|$ Tecnologo Alimentare} \\ \medskip
+  {\large Dottore Magistrale in Scienze della Nutrizione Umana} \\ \medskip
 
   % Foto (opzionale): aggiungi \usepackage{graphicx} nel preambolo e decommenta la riga seguente
   % \includegraphics[width=3cm]{sagoma.jpeg} \\ \medskip
 
   \href{tel:+393281639295}{{\color{gray}{\faPhone}} +39 328 163 9295} \quad
   \href{mailto:simone.tringali.96@gmail.com}{{\color{gray}{\faEnvelope}} simone.tringali.96@gmail.com} \quad
-  {\color{gray}{\faHome}} Italia \\ \smallskip
+  {\color{gray}{\faHome}} Italia \quad
   {\color{gray}{\faCalendar*}} 02/02/1996 \quad
   {\color{gray}{\faCar}} Patente B
 \end{center}
@@ -115,15 +112,15 @@ Simone Tringali -- Page \thepage\ of \pageref*{LastPage}}
 
 \section{Chi sono}
 %==========
-\noindent \textbf{Tecnologo Alimentare} con Laurea Magistrale in \textbf{Scienze della Nutrizione Umana}, con l'obiettivo di diventare \textbf{nutrizionista}. Unisco competenze in \textbf{qualità e sicurezza degli alimenti} e \textbf{tecnologie alimentari} a una formazione in \textbf{nutrizione clinica}, maturata con il tirocinio in ambito \textbf{bariatrico} e \textbf{oncologico} e con una tesi su \textbf{alimentazione e sindrome del colon irritabile} (approccio \textbf{low-FODMAP}). Amo esplorare il legame tra \textbf{cibo}, \textbf{salute} e \textbf{benessere}, anche attraverso la pratica in \textbf{cucina}.
+\noindent Laureato con lode in \textbf{Scienze della Nutrizione Umana} (LM-61), con formazione triennale in \textbf{Scienze e Tecnologie Agroalimentari}. Esperienza di tirocinio in \textbf{nutrizione clinica} (chirurgia bariatrica e oncologia) nella valutazione dello stato nutrizionale e nell'elaborazione di \textbf{piani alimentari personalizzati}. Competenze in \textbf{qualità e sicurezza degli alimenti} e approfondimento sulla \textbf{nutrizione nei disturbi intestinali}, sviluppato nella tesi sulla sindrome del colon irritabile.
 
-\section{Esperienze}
+\section{Tirocini}
 %==========
 \subsection{Casa di Cura Macchiarella \rside{Palermo}}
 \subsubsection{Tirocinante Nutrizionista \rside{Feb 2026 -- Apr 2026}}
 \begin{itemize}
-  \item Affiancamento della nutrizionista della clinica nelle consulenze di \textbf{Chirurgia Bariatrica} (fase pre- e post-operatoria) e di \textbf{Oncologia Medica}.
-  \item Anamnesi alimentare, rilevazione antropometrica e stima della composizione corporea con \textbf{Bioimpedenziometria (BIA)}; calcolo del fabbisogno e \textbf{piani nutrizionali personalizzati}.
+  \item Affiancamento della nutrizionista della clinica nelle consulenze di \textbf{chirurgia bariatrica} (fase pre- e post-operatoria) e di \textbf{oncologia medica}.
+  \item Anamnesi alimentare, rilevazione antropometrica e stima della composizione corporea con \textbf{bioimpedenziometria (BIA)}; calcolo del fabbisogno e \textbf{piani nutrizionali personalizzati}.
   \item Counseling a pazienti oncologici e valutazione dello stato nutrizionale (\textbf{MNA}), in \textbf{équipe multidisciplinare}.
 \end{itemize}
 
@@ -136,51 +133,35 @@ Simone Tringali -- Page \thepage\ of \pageref*{LastPage}}
 \section{Istruzione}
 %==========
 \subsection{Università Telematica San Raffaele di Roma \rside{Roma}}
-\subsubsection{Laurea Magistrale in Scienze della Nutrizione Umana \rside{2024 -- 2026}}
+\subsubsection{Laurea Magistrale in Scienze della Nutrizione Umana (LM-61) \aux{110/110 e lode} \rside{2024 -- 2026}}
 \begin{itemize}
-  \item \textbf{Materie di indirizzo:} Nutrizione a livello dell'organismo: tessuti, organi e funzioni; La sindrome metabolica e le malattie dell'intestino; Disturbi del comportamento alimentare e del controllo ormonale; Intolleranze alimentari, immunità e farmaci; Metodologie dell'analisi nutrizionale.
+  \item \textbf{Tesi:} \textit{Il ruolo dell'alimentazione nella sindrome del colon irritabile: prospettive attuali tra nutrizione clinica e tecnologie alimentari}.
+  \item \textbf{Materie di indirizzo:} sindrome metabolica e malattie dell'intestino; disturbi del comportamento alimentare e del controllo ormonale; intolleranze alimentari, immunità e farmaci; metodologie dell'analisi nutrizionale.
 \end{itemize}
 
 \subsection{Università degli Studi di Palermo \rside{Palermo}}
 \subsubsection{Laurea in Scienze e Tecnologie Agroalimentari \rside{2018 -- 2024}}
 \begin{itemize}
-  \item \textbf{Materie di indirizzo:} Microbiologia degli alimenti e dei prodotti fermentati; Tecnologie Alimentari; Chimica Nutraceutica e Metabolismo dei Nutrienti; Igiene e ispezione degli alimenti.
+  \item \textbf{Materie di indirizzo:} microbiologia degli alimenti e dei prodotti fermentati; tecnologie alimentari; chimica nutraceutica e metabolismo dei nutrienti; igiene e ispezione degli alimenti.
 \end{itemize}
 
-\section{Corsi}
+\section{Corsi di aggiornamento}
 %==========
 \begin{itemize}
   \item \textbf{BIA START: conoscere e interpretare la metodica BIA} \aux{Akern Academy} \rside{2026}
-  \item \textbf{Gestione degli effetti collaterali da farmaci incretino-mimetici} \aux{SIFA, FAD} \rside{2026}
   \item \textbf{Il paziente malnutrito: una sfida per il nutrizionista} \aux{SIFA, FAD} \rside{2026}
   \item \textbf{Terapia incretinica e nutrizione di precisione nell'obesità} \aux{SIFA, FAD} \rside{2026}
+  \item \textbf{Gestione degli effetti collaterali da farmaci incretino-mimetici} \aux{SIFA, FAD} \rside{2026}
 \end{itemize}
 
 \section{Competenze}
 %===============
-\subsection{Trasversali}
 \begin{itemize}
-  \item Problem Solving, Creatività, Team Work, Adattabilità, Velocità di apprendimento.
+  \item \textbf{Lingue:} Italiano madrelingua; Inglese B1 (intermedio).
+  \item \textbf{Informatiche:} Microsoft Office (Word, Excel, PowerPoint); Windows, macOS.
+  \item \textbf{Trasversali:} lavoro in équipe, problem solving, adattabilità, rapidità di apprendimento, creatività.
+  \item \textbf{Interessi:} il legame tra \textbf{cibo}, \textbf{salute} e \textbf{benessere}, che coltivo anche in \textbf{cucina}, sperimentando con gli \textbf{impasti}; sport di squadra (\textbf{calcio}, \textbf{padel}); innovazioni digitali.
 \end{itemize}
-
-\subsection{Informatiche}
-\begin{itemize}
-  \item Ottima conoscenza della suite Microsoft Office: \textbf{Word, PowerPoint, Excel}.
-  \item Buona conoscenza dei sistemi operativi: \textbf{Windows, macOS}.
-\end{itemize}
-
-\subsection{Lingue}
-\begin{itemize}
-  \item \textbf{Italiano}: Madrelingua.
-  \item \textbf{Inglese}: conoscenza intermedia.
-\end{itemize}
-
-\subsection{Interessi}
-\noindent Appassionato di \textbf{cucina} e di \textbf{impasti}, amo gli sport di squadra come \textbf{calcio} e \textbf{padel}, che sviluppano il \textbf{lavoro di squadra}, e resto aggiornato sulle \textbf{innovazioni digitali}.
-
-
-
-
 % \section{Certifications}
 % %=======================
 % \begin{enumerate}[label=\null, left=0pt..0pt, itemsep=0pt]

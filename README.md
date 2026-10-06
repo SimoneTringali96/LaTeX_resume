@@ -22,8 +22,7 @@ Puoi trovarmi anche su:
 
 Puoi [scaricare il PDF compilato](./Simone_Tringali_CV_ITA.pdf) oppure dare un'occhiata all'anteprima:
 
-![Screenshot_CV](./Simone_Tringali_CV_ITA-0.jpg)
-![Screenshot_CV](./Simone_Tringali_CV_ITA-1.jpg)
+![Screenshot_CV](./Simone_Tringali_CV_ITA.jpg)
 
 ## Come iniziare
 
