@@ -1,6 +1,6 @@
-# AltaCV - CV in LaTeX a Singola Pagina
+# Rover Resume - CV in LaTeX
 
-v1.1 (06 ottobre 2026) di Simone Tringali
+v2.0 (06 ottobre 2026) di Simone Tringali
 
 [Per la versione inglese Clicca Qui](https://github.com/SimoneTringali96/LaTeX_resume/tree/ENG)
 
@@ -9,23 +9,23 @@ v1.1 (06 ottobre 2026) di Simone Tringali
 Questo repository è pensato per te, amante di LaTeX, per darti un'idea interessante per un curriculum vitae.
 Puoi utilizzare questo modello per creare in pochi minuti il tuo curriculum personale.
 
-Di seguito troverai una selezione di passi da seguire per personalizzare il tuo curriculum, divertiti.
+Il template è basato sulla versione di [Emanuele Seminara](https://github.com/EmanueleSeminara/LaTeX_resume),
+a sua volta fork di [Rover Resume](https://github.com/subidit/rover-resume), successivamente personalizzato nella struttura e nello stile.
+
 Per qualsiasi domanda puoi scrivermi a [simone.tringali.96@gmail.com](mailto:simone.tringali.96@gmail.com).
 
 Puoi trovarmi anche su:
 
-<!-- [![LinkedIn](https://github.com/EmanueleSeminara/images/blob/main/icon_square_linkedin_50.png?raw=true)](https://www.linkedin.com/in/emanuele-seminara/) -->
 [![Instagram](https://github.com/EmanueleSeminara/images/blob/main/icon_square_instagram_50.png?raw=true)](https://www.instagram.com/simone_tringali/)
-<!-- [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/icon_square_emanueleseminara_50.png?raw=true)](https://emanueleseminara.it/) -->
 
 ## Aspetto del Curriculum
 
-![Screenshot_CV](./Simone_Tringali_CV_ITA.jpg)
+Puoi [scaricare il PDF compilato](./Simone_Tringali_CV_ITA.pdf) oppure dare un'occhiata all'anteprima:
 
-## Editor
+![Screenshot_CV](./Simone_Tringali_CV_ITA-0.jpg)
+![Screenshot_CV](./Simone_Tringali_CV_ITA-1.jpg)
 
-Nel caso tu non conosca LaTeX, non preoccuparti, puoi utilizzare [Overleaf](https://overleaf.com), un editor online gratuito e fantastico,
-basta creare un account, avviare un nuovo progetto e caricare i file di questo repository.
+## Come iniziare
 
 Per avere i file sul tuo PC, clona semplicemente questo repository:
 
@@ -38,22 +38,24 @@ Per avere i file sul tuo PC, clona semplicemente questo repository:
 2. Clona il repository
 
    ```bash
-   git clone https://github.com/EmanueleSeminara/LaTeX_resume.git
+   git clone https://github.com/SimoneTringali96/LaTeX_resume.git
    ```
 
-Dopo aver caricato i file, dovrai solo modificare il contenuto dei file per scrivere ciò che desideri nel tuo curriculum.
-È davvero intuitivo, nel caso tu abbia bisogno di ulteriori informazioni su cosa modificare, puoi consultare le sezioni seguenti.
+Dopo aver caricato i file, ti basta modificarne il contenuto per scrivere ciò che desideri nel tuo curriculum.
+È davvero intuitivo: i commenti all'inizio del file `.tex` spiegano i comandi personalizzati usati dal template.
 
-## Requisiti e Compilazione
+## Compilazione
 
-- Alla riga 76 di main.tex puoi inserire le tue informazioni personali.
-- page1sidebar.tex contiene il codice per la parte destra del curriculum.
-- Ricorda di sostituire l'immagine con la tua foto e utilizza un formato png.
-- Se desideri cambiare i colori, vai alla riga 48 di main.tex.
-- AltaCV utilizza [`fontawesome`](http://www.ctan.org/pkg/fontawesome) e [`academicons`](http://www.ctan.org/pkg/academicons); sono inclusi sia in TeX Live 2016 che in MikTeX 2.9.
-- Il caricamento di `academicons` è facoltativo: attivalo aggiungendo l'opzione `academicons` a `\documentclass`.
-- Ora può essere compilato con pdflatex, XeLaTeX e LuaLaTeX!
-- Tuttavia, se stai utilizzando `academicons`, _devi_ usare XeLaTeX o LuaLaTeX. Se il documento viene compilato ma le icone non appaiono nel PDF finale, prova a compilare con LuaLaTeX invece.
-- Negli esempi qui mostrati viene utilizzato il carattere [Lato](http://www.latofonts.com/lato-free-fonts/).
+Il template è pensato per **pdfLaTeX** e utilizza `fontenc` con codifica T1: è necessaria affinché le lettere accentate
+vengano estratte correttamente dal PDF, aspetto rilevante per i sistemi ATS che leggono automaticamente i curriculum.
 
+Per compilare in locale serve una distribuzione LaTeX presente nel PATH di sistema. Su macOS puoi installare
+[MacTeX](https://www.tug.org/mactex/mactex-download.html), scaricando `MacTeX.pkg` dalla pagina di download.
+Per altri sistemi operativi, o per alternative più leggere, fai riferimento alla
+[documentazione di TeX Live](https://www.tug.org/texlive/).
 
+Se usi Visual Studio Code, l'estensione [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+gestisce la compilazione automaticamente una volta installata la distribuzione.
+
+In alternativa, se non vuoi installare nulla, puoi usare [Overleaf](https://overleaf.com): un editor online gratuito,
+basta creare un account, avviare un nuovo progetto e caricare i file di questo repository.
